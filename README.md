@@ -31,3 +31,4 @@
 
 4. Running the Program
     1. Type the command ` npm run dev ` in your terminal.
+    2. Go to this [link](http://localhost:3000/).
