@@ -8,26 +8,26 @@
 
 # Setup Guide
 
-- Cloning Repository
-    - Open your Command Prompt.
-    - Press Windows Key and type cmd then press Enter.
-    - Type the command ` git clone https://github.com/rtjericho1999/employee-record-management.git `
-    - If you are using Visual Studio Code. You can type ` cd employee-record-management ` and then type ` code .` tp open VS code.
+1. Cloning Repository
+    1. Open your Command Prompt.
+    2. Press Windows Key and type cmd then press Enter.
+    3. Type the command ` git clone https://github.com/rtjericho1999/employee-record-management.git `
+    4. If you are using Visual Studio Code. You can type ` cd employee-record-management ` and then type ` code .` tp open VS code.
 
-- Installing Dependencies
-    - Open Terminal then type ` npm install `. If in case of an error, type ` npm install --force `.
+2. Installing Dependencies
+    1. Open Terminal then type ` npm install `. If in case of an error, type ` npm install --force `.
 
-- Connecting Database
-    - Create a .env file in the root directory and type ` mysql://USER:PASSWORD@HOST:PORT/DATABASE `. URL must match your database credentials otherswise it will not work as intended.
-    - Open /employee-record-management/prisma/schema.prisma. Change the provider based on the databse that you are using.
+3. Connecting Database
+    1. Create a .env file in the root directory and type ` mysql://USER:PASSWORD@HOST:PORT/DATABASE `. URL must match your database credentials otherswise it will not work as intended.
+    2. Open /employee-record-management/prisma/schema.prisma. Change the provider based on the databse that you are using.
     ```
         datasource db {
             provider = "mysql"
             url      = env("DATABASE_URL")
         }
     ```
-    - Find more information about this on the [prisma documentation](https://www.prisma.io/docs/orm/overview/databases).
+    3. Find more information about this on the [prisma documentation](https://www.prisma.io/docs/orm/overview/databases).
     - Type the command ` npx prisma migrate dev ` in your terminal. You should see the database created right after the command is executed.
 
-- Running the Program
-    Type the command ` npm run dev ` in your terminal.
+4. Running the Program
+    1. Type the command ` npm run dev ` in your terminal.
