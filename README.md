@@ -1,7 +1,10 @@
 # Prerequisites
 
 - Mysql and Mysql Workbench or any other related relational database must be already setup. For more information about the supported databses please follow this [link](https://www.prisma.io/docs/orm/overview/databases).
-- Git and Node JS must be installed on your computer.
+- Git and Node JS must be installed on your computer. Go for the default installation settings.
+    - Here are the download links
+        - [NODE](https://nodejs.org/en/download/current)
+        - [GIT](https://git-scm.com/download/win)
 
 # Setup Guide
 
