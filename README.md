@@ -27,7 +27,7 @@
         }
     ```
     3. Find more information about this on the [prisma documentation](https://www.prisma.io/docs/orm/overview/databases).
-    - Type the command ` npx prisma migrate dev ` in your terminal. You should see the database created right after the command is executed.
+    4. Type the command ` npx prisma migrate dev ` in your terminal. You should see the database created right after the command is executed.
 
 4. Running the Program
     1. Type the command ` npm run dev ` in your terminal.
