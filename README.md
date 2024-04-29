@@ -42,7 +42,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Mysql and Mysql Workbench or any other related relational database must be already setup. For more information about the supported databses please follow this [link](https://www.prisma.io/docs/orm/overview/databases).
 - Git and Node JS must be installed on your computer.
 
-#Setup Guide
+# Setup Guide
 
 ************
 
